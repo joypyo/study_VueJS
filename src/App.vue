@@ -1,7 +1,7 @@
 <template>
   <div class="menu">
     <a v-for="(a) in 메뉴들" :key="a">{{a}}</a>
-
+  
   </div>
 
 <div v-for="test in 3" :key="test">
